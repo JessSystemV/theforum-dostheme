@@ -1,1 +1,15 @@
-[{"title":"Default post","content":"This is the first post, it was here since the beginning.\n\n\n(Remove the space after the '[' and before the ']')\n\n  [ * [* text *] * ] [ ** [** text **] ** ] [ *** [*** text ***] *** ] [ _ [_ text _] _ ] [ *_ [*_ text _*] _* ] [ **_ [**_ text _**] _** ] [ ***_ [***_ text _***] _*** ] [ \" [\" text \"] \" ] [ # image link # ]","author":"root","comments":[{"title":"The first comment","content":"This is the first comment, it was here since the beginning.","author":"Anonymous","comments":[]}]},{"timestamp":1715613503824,"author":"Anonymous","title":"test","content":"test\n\n[* Signed: [\" ef6107d5d89c8c42eeaf66b63e0e2facc7b895026dada01888c1c82aa9b48e23 \"] *]","comments":[{"timestamp":1715613684329,"author":"test","title":"comment","content":"test\n\n[* Signed: [\" f6bca4a92a655ca4a5a2006fc6530002894dae952120042665da6077f7d4ff25 \"] *]","comments":[]}]},{"timestamp":1715614210271,"author":"Anonymous","title":"s","content":"s\n\n[* Not signed *]","comments":[{"timestamp":1715614618704,"author":"Anonymous","title":"test","content":"test\n\n[* Signed: [\" 20e7bc50642895a5c10de8d89f41774eed541157e9d8e051b70d1c4f67b42a72 \"] *]","comments":[{"timestamp":1715614624306,"author":"Anonymous","title":"test2","content":"test3\n\n[* Signed: [\" 3b8f649757f2edcbdf56bdf747ca3402065063a0f28df47ab23f3010f87ce71c \"] *]","comments":[]}]}]}]
+[
+  {
+    "title": "Default post",
+    "content": "This is the first post, it was here since the beginning.\n\n\n(Remove the space after the '[' and before the ']')\n\n  [ * [* text *] * ] [ ** [** text **] ** ] [ *** [*** text ***] *** ] [ _ [_ text _] _ ] [ *_ [*_ text _*] _* ] [ **_ [**_ text _**] _** ] [ ***_ [***_ text _***] _*** ] [ \" [\" text \"] \" ] [ # image link # ]",
+    "author": "root",
+    "comments": [
+      {
+        "title": "The first comment",
+        "content": "This is the first comment, it was here since the beginning.",
+        "author": "Anonymous",
+        "comments": []
+      }
+    ]
+  }
+]
