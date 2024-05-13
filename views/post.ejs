@@ -6,30 +6,46 @@
         <meta property="og:description" content="<%=`A post by ${post.author.replaceAll('"','')} with ${post.comments.length} comments.`%>" />
         <title><%=post.title%> - <%=webname%></title>
         <style>
+
+            @font-face {
+                font-family: 'MorePerfectDOSVGA';
+                src: url('/fonts/MorePerfectDOSVGA.eot'); /* IE9 Compat Modes */
+                src: url('/fonts/MorePerfectDOSVGA.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+                     url('/fonts/MorePerfectDOSVGA.woff') format('woff'), /* Modern Browsers */
+                     url('/fonts/MorePerfectDOSVGA.ttf')  format('truetype'), /* Safari, Android, iOS */
+                     url('/fonts/MorePerfectDOSVGA.svg#svgFontName') format('svg'); /* Legacy iOS */
+            }
+
             html {
-                background-color: #202020;
-                color: #cccccc;
-                font-family: sans-serif;
+                background-color: #000000;
+                color: #C0C0C0;
+                font:inherit;
+                font-family: MorePerfectDOSVGA;
                 word-wrap: break-word;
             }
 
+            body {
+                font-family: MorePerfectDOSVGA;
+            }
+
             a {
-                color: #ffffff;
+                color: #C0C0C0;
                 text-decoration: none;
             }
 
             div.posts {
-                margin: auto;
+                margin-left: 0; 
+                margin-right: auto;
                 display: block;
                 width: fit-content;
             }
 
             post .content {
                 max-width: min(70vw, max(50vw, 100em));
-                background-color: #202030;
+                background-color: #000000;
                 display: block;
                 padding: 0 5px 5px 5px;
-                border: 1px solid #808080;
+                border: 2px solid #C0C0C0;
             }
 
             post .content .controls {
@@ -37,11 +53,16 @@
                 text-align: right;
             }
 
+            html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+                font-size:100%;
+                font-family: MorePerfectDOSVGA;
+            } 
+
             post {
                 display: block;
                 margin-left: 5px;
                 padding-left: 5px;
-                border-left: 2px solid #808080;
+                border-left: 2px solid #000000;
                 padding-bottom: 5px;
                 padding-top: 5px;
             }
@@ -71,21 +92,32 @@
                 border-radius: 3px;
                 border: 1px solid #000000;
                 background-color: #000000;
-                color: #ffffff;
+                color: #C0C0C0;
+                font:inherit;
+                font-family: MorePerfectDOSVGA;
             }
             
             textarea {
                 min-height: 25vh;
                 width: 100%;
-                color: #ffffff;
-                background-color: #303040;
+                background-color: #000000;
+                color: #C0C0C0;
+                font:inherit;
+                font-family: MorePerfectDOSVGA;
                 border: 3px solid #000000;
             }
             
             input {
-                color: #ffffff;
-                background-color: #303040;
+                background-color: #000000;
+                color: #C0C0C0;
+                font:inherit;
+                font-family: MorePerfectDOSVGA;
                 border: 3px solid #000000;
+            }
+
+            inline {
+                font:inherit;
+                font-family: MorePerfectDOSVGA;
             }
 
             block {

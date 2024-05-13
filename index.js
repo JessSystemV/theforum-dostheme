@@ -3,8 +3,9 @@ require('hashcode.js')
 const Express = require('express')
 const bdb = require('bdb.js')
 const posts = bdb.load('posts.json', 1)
+const path = require("path");
 
-const webname = 'TheForum'
+const webname = 'Jess\' Forum' 
 const email = null
 
 const server = new Express()
@@ -34,6 +35,8 @@ server.use(function replacer(req, res, next) {
 })
 
 server.use(require('body-parser').urlencoded({extended: false}))
+
+server.use(Express.static(path.join(__dirname, "public")));
 
 
 server.all('/', function get(req, res) {
